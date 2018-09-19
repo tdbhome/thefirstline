@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="32sp"
+        android:textColor="#00ff00"
+        android:text="Hello World!"
+
+     />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示输入"
+        android:textAllCaps="false"
+    />
+    <Button
+        android:id="@+id/buttonImg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="更换图片"
+        android:textAllCaps="false"
+        />
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入文字"
+        android:maxLines="2"
+    />
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/microphone_128px"
+        />
+    <Button
+        android:id="@+id/buttonPre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="进度"
+        android:textAllCaps="false"
+        />
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="100"
+        />
+    <Button
+        android:id="@+id/buttonAlert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="对话框"
+        android:textAllCaps="false"
+        />
+    <Button
+        android:id="@+id/buttonPD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="进度弹出框"
+        android:textAllCaps="false"
+        />
+</LinearLayout>
